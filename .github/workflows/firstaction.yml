@@ -27,6 +27,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
-        run: |
+        run:
           echo Add other actions to build,
           echo Hi $name!
